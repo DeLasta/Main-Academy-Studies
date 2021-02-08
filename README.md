@@ -1,2 +1,2 @@
 # Main-Academy-Studies
-This is my very first studying repository
+Test of pushing of the commit
