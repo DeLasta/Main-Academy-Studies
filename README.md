@@ -1,3 +1,2 @@
 # Main-Academy-Studies
-Test of pushing of the commit! Max knows how to code! Awesome!
-More code here!
+Project I did for the 4th lesson of Main Academy Course
