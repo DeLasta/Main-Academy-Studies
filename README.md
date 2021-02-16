@@ -1,3 +1,2 @@
 # Main-Academy-Studies
-Test of pushing of the commit! Max knows how to code! Awesome!
-More code here!
+Lab 1.3.2 completed
