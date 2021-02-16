@@ -2,61 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Package Retour
+    </title>
+
+    <img src="https://static.wikia.nocookie.net/gtawiki/images/1/11/Binco-GTASA-Logo.svg/revision/latest/scale-to-width-down/1000?cb=20160625115639 alt="binco" width=500>
+
 </head>
 <body>
-
-    <form action="/add-city" target="blank" method="GET">
-        <p> 
-            <label for="input1">Name</label> 
-            <input autofocus required id="input1" value="Alex" placeholder="Enter your login here" type="text">
-         
-            <label for="input2">Name</label> 
-            <input required id="input1" value="Alex" placeholder="Enter your password here" type="text">
-         </p>
-         <p> 
-            <label for="input3">Are you older than 18?</label> 
-            <input checked required id="input1" type="checkbox">
-         </p>
-         
-         <button>Submit</button>
-        </p>
+    <h1>Report Damaged Package</h1>
+    <img src="https://miro.medium.com/max/700/1*c7cESYM-oQCB5WkJBIiM1g.png" alt="damaged_box" width="500">
+        <form action="/add_information", target="blank" method="GET">
+        
         <p>
-            <input id="file" type="file">
+            <label for="input1">Login</label>
+            <input autofocus required id=input1 placeholder="Enter your login here" type="text">
+            
+            <label for="input2">Password</label>
+            <input type="password" placeholder="Enter your Password here" type="text">
         </p>
 
-        <p>
-            <input type="password">
-        </p>
 
+        <P>
+            
+            <label for="input1">Order ID</label>
+            <input minlength="8" required id=input3 placeholder="Enter your Order ID here" type="text">
+        </P>
+
+        <button>Submit</button>
         <p>
-            <label for="radio1">Cabbage</label>
+           <h2>Type of Damage</h2>
+
+            <label for="radio1">External Damage/Scratches</label>
             <input name="val" id="radio1" type="radio" value="rad1">
-        
-            <label for="radio2">Carrot</label>
+
+        <p>
+            <label for="radio2">Internal Damage/Fractures</label>
             <input name="val" id="radio2" type="radio" value="rad2">
-        
-            <label for="radio3">Onion</label>
+        </p>
+        <p>
+            <label for="radio3">Missing Parts</label>
             <input name="val" id="radio3" type="radio" value="rad3">
         </p>
-
         <p>
-            <input type="reset" value="Clear">
+            <label for="radio4">Other</label>
+            <input name="val" id="radio4" type="radio" value="rad4">
+        <p>
         </p>
         <p>
-            <textarea minlength="10" name="Comments" id="" cols="60" rows="10"></textarea>
+            <h3>Damage Desription</h3>
+            <textarea minlength="10" name="Please describe the state of the package" id="" cols="60" rows="10"></textarea>
         </p>
-
-        <p>Choose your store</p>
+        <p>Choose the carrier you'd like to retour the product with</p>
         <select name="" id="">
 
-        <option selected value="Option 1">Option1</option>        
-        <option value="Option 2">Option2</option>
-        <option value="Option 3">Option3</option>
+        <option selected value="Option 1">No Selection</option>        
+        <option value="Option 2">Hermes</option>
+        <option value="Option 3">American Express</option>
+        <option value="Option 4">DHL/Deutsche Post</option>
+        <option value="Option 5">Self-delivery to store</option>
         </select>
-       
-    </form>
 
+        <p>
+            <input type="reset" value="Clear Inputs"> or <button>Submit Claim</button>
+        </p>
+    </form>
 </body>
+<footer>
+    <hr>
+    <p>All rights reserved, (c) Binco Wholesale Goods Inc.
+    </p> 1141 West Ave, Lancaster, CA 93534, United States
+    <p>
+        <a href="https://de.priclist.com/brand/costco/?lstSource=google&lstMedium=cpc&lstCampaign=10485265150&lstTerm=costco&adwCampaign=10485265150&adwAdGroup=106810448827&adwMatchType=b&adwNetwork=g&adwDevice=c&adwDeviceModel=&adwKeyword=costco&adwPlacement=&adwAdPosition=&gclid=Cj0KCQiA962BBhCzARIsAIpWEL2_-KvUB3GYj9fyblhMPYniRRxqmRjAclD2Cpztnh0OkAULcCvZSxkaArfmEALw_wcB">Back to Store</a>
+    </p>
+</footer>
 </html>
