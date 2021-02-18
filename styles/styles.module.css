@@ -1,14 +1,55 @@
-header, footer {
-    background-color:lightskyblue;
+*{ font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 12pt;
+margin:0;
+padding: 0;}
+
+header, footer{ 
+    padding: 10px;
+    background-color: aliceblue;
 }
-header {
+header{
     text-align: right;
 }
-footer {
+footer{
     text-align: left;
 }
-header button, footer button{
+
+header button, footer button {
+    background-color:cornflowerblue;
     color: white;
-    background-color: rgb(140, 140, 255)
+    border: solid;
+    border-color: lightgray;
+    border-style: double;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+body{
     padding: 15px;
 }
+
+.site_content{ 
+    border: solid;
+    border-width: 1px;
+    border-color: cornflowerblue;
+    padding: 15px;
+    margin: 10px;
+}
+
+.container{
+    background-color: seashell;
+    margin: 15px;
+}
+.container button{
+    color: white;
+    background-color: tomato;
+    padding: 2px;
+}
+.site_content > button {
+    border-style: double;
+    border-width: 2px;
+    border-color: lightgray;
+    background-color: white;
+    color: blue;
+    padding: 2px;
