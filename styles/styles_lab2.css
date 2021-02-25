@@ -3,16 +3,19 @@
     font: size 15px;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box
+    box-sizing: border-box;
     }
 
 .group .column{
+    display: inline-block;
     float: left;
     width: 25%;
     padding: 25px;
 }
 
 .group {
+    display: inline-block;
+    padding: 15px;
     margin: 15px;
     background: linear-gradient(to right,
     #eeeeee 25%,
@@ -23,9 +26,8 @@
     #cccccc 75%,
     #cccccc 100%);   
 }
-footer{
-    box-sizing: border-box;
-    padding-left: 25px;
-    padding-top: 25px;
-    
+ .reference{
+    display: block;
+    position: relative;
+    top:40px; left: 15px;
 }
