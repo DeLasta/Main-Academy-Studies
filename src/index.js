@@ -1,34 +1,13 @@
-//Задача 1
+let trueValue = true;
+console.log(trueValue, typeof trueValue); //boolean
 
-//Создайте страницу, которая отобразит сообщение «Я JavaScript!».
-//Выполните это задание в песочнице, либо на вашем жёстком диске, где – неважно, главное – проверьте, что она работает.
+trueValue = String(trueValue); //string
+console.log(trueValue, typeof trueValue);
 
-alert("Я JavaScript!");
+console.log('____________________');
 
+console.log(String(null));
 
-//Задача 2
+console.log('____________________');
 
-// Что выведет этот скрипт? -- Ответ: Скрипт выведет окно сообщения со следующим текстом >>
-
-// let name = "Ilya";
-
-// alert( `hello ${1}` ); // ?           >Ответ: "hello 1" 
-// alert( `hello ${"name"}` ); // ?      >Ответ: "hello name"
-// alert( `hello ${name}` ); // ?        >Ответ: "hello Ilya"
-
-
-//Задача 3
-
-// Объявите две переменные: admin и name.
-// Запишите строку "Джон" в переменную name.
-// Скопируйте значение из переменной name в admin.
-// Выведите на экран значение admin, используя функцию alert (должна показать «Джон»)
-
-let admin;
-let name;
-
-name="Джон";
-admin=name;
-alert(admin);
-
-//END
+console.log('62'/ '2')
