@@ -1,29 +1,54 @@
-let trueValue = true;
-console.log(trueValue, typeof trueValue); //boolean
+//Задание
 
-trueValue = String(trueValue); //string
-console.log(trueValue, typeof trueValue);
+//Ниже приведён код, который запрашивает у пользователя два числа и показывает их сумму.
+//Он работает неправильно. Код в примере выводит 12 (для значения полей по умолчанию).
+//В чём ошибка? Исправьте её. Результат должен быть 3.
 
-console.log('____________________');
+//let a = prompt("Первое число?", 1);
+//let b = prompt("Второе число?", 2);
 
-console.log(String(null));
+//alert(a + b); // 12
 
-
-
-console.log('____________________');
-
-console.log('62' + 'n'); //will be a string '62n'
-
-
-
-console.log('____________________');
-
-console.log(Number(null)); //will be a number '0'
-console.log(Number(true)) //will be a number '1'
-console.log(Number("")) //will be a number '0' - NO Space
+//Проблема: тип данных по умолчанию при сложении в JS 
+//установлен на "String", поэтому и получается 12 вместо 3 в результате.
+//Для правильного решения требуется перевести а и b в числа.
 
 
 
-console.log('____________________');
-console.log(Boolean(undefined))  // will be 'false'
-console.log(Boolean(null), "null") //will be 'false'
+//Ответы:
+
+//Решение 1 (Через преоброзовение Number в команде alert):
+
+//let a = prompt("Первое число?", 1);
+//let b = prompt("Второе число?", 2);
+
+//alert (Number(a) + Number(b));
+
+
+
+//Решение 2 (Через преоброзование Number в команде let):
+
+//let a = Number(prompt("Первое число?", 1));
+//let b = Number(prompt("второе число?", 2));
+
+//alert (a + b);
+
+
+
+//Решение 3 (Через преоброзование оператором "+", аналога Number, в команде alert):
+
+//let a = prompt("Первое Число?", 1);
+//let b = prompt("второе Число?", 2);
+
+//alert (+a + +b);
+
+
+
+//Решение 4 (Через преоброзование оператором "+" в команде let):
+
+let a = +prompt("Первое Число?", 1);
+let b = +prompt("второе Число?", 2);
+
+alert (a + b);
+
+//End
