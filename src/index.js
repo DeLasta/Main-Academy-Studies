@@ -39,6 +39,12 @@
 
 //Решение:
 
-let message = (login == "Employee") ? "Hello" :
-(login == "Vice President") ? "Greetings sir" : 
-(login == "") ? "No login" : "";
+// let message = (login == "Employee") ? "Hello" :
+// (login == "Vice President") ? "Greetings sir" : 
+// (login == "") ? "No login" : "";
+
+
+
+if (age => 14 && age => 90);
+
+console.log("Your age is",age);
