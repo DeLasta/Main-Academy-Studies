@@ -11,6 +11,12 @@
 //   result = 'Много';
 // }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+console.log('62'/ '2')
+=======
+>>>>>>> Stashed changes
 //Решение:
 
 //let result = (a + b < 4) ? "Мало" : "Много";
@@ -45,6 +51,13 @@
 
 
 
+<<<<<<< Updated upstream
 if (age => 14 && age => 90);
 
 console.log("Your age is",age);
+=======
+// if (age => 14 && age => 90);
+
+// console.log("Your age is",age);
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
