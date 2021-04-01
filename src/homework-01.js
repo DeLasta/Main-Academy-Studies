@@ -45,3 +45,25 @@ let i;
 do {
     i = prompt("Enter the number which is greater than 100", i );
 } while ( i <= 100 && +i);
+
+
+console.log("Task 4: Enter prime numbers up to 10");
+
+//Задание 4
+//Вывести простые числа
+//Напишите код, который выводит все простые числа из интервала от 2 до n.
+//Для n = 10 результат должен быть 2,3,5,7.
+//P.S. Код также должен легко модифицироваться для любых других интервалов.
+
+//Решение:
+let n = 10;
+
+primeSet:
+for (let i = 2; i <= n; i++){
+    for (let x = 2; x < i; x++){
+        if (i % y === 0) {
+            continue primeSet;
+        }
+    }
+    alert (x);
+}
